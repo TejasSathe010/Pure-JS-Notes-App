@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure JS Notebook</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="notes" id="app">
+        <div class="notes__sidebar">
+            <button class="notes__add" type="button">Add Note</button>
+            <div class="notes__list">
+                <div class="notes__list-item">
+                    <div class="notes__small-title">Lecture Note</div>
+                    <div class="notes__small-body">I learned nothing today</div>
+                    <div class="notes__small-updated">Monday, 2:50am</div>
+                </div>
+            </div>
+        </div>
+        <div class="notes__preview">
+            <input type="text" placeholder="Enter a title..." class="notes__title">
+            <textarea class="notes__body">
+                I am the notes body
+            </textarea>
+        </div>
+    </div>
+</body>
+</html>
