@@ -9,7 +9,7 @@ export default class NotesView {
             <div class="notes__sidebar">
                 <button class="notes__add" type="button">Add Note</button>
                 <div class="notes__list">
-                    
+
                 </div>
             </div>
             <div class="notes__preview">
